@@ -42,7 +42,7 @@ pipeline {
         stage('Build and Push Docker Image') {
             agent any   // runs on EC2 host
             environment {
-                DOCKER_IMAGE = "Akhila006/ultimate-cicd:${BUILD_NUMBER}"
+                DOCKER_IMAGE = "akhila006/ultimate-cicd:${BUILD_NUMBER}"   // FIXED: lowercase
                 REGISTRY_CREDENTIALS = credentials('docker-cred')
             }
             steps {
@@ -57,7 +57,7 @@ pipeline {
         }
 
         stage('Update Deployment File') {
-            agent any   // runs on EC2 host
+            agent any
             environment {
                 GIT_REPO_NAME = "jenkins-cicd-project"
                 GIT_USER_NAME = "akhilaraj06"
@@ -78,5 +78,6 @@ pipeline {
         }
     }
 }
+
 
 
