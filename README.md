@@ -1,8 +1,10 @@
 # End-to-End CI/CD Pipeline for Java Application
 
 ---
-<img width="1903" height="888" alt="CD" src="https://github.com/user-attachments/assets/be404540-7df3-45b3-a2b5-71cc6395904e" />
-<img width="1902" height="657" alt="jenkins_pipeline" src="https://github.com/user-attachments/assets/9ff3bf80-e570-4179-b2c7-018bd1b208c4" />
+<img src="https://github.com/user-attachments/assets/9ff3bf80-e570-4179-b2c7-018bd1b208c4" alt="Jenkins Pipeline" width="800"/>
+<img src="https://github.com/user-attachments/assets/be404540-7df3-45b3-a2b5-71cc6395904e" alt="CD" width="800"/>
+
+
 
 ## Project Overview
 Designed and implemented a fully automated CI/CD pipeline for a Java application, integrating modern DevOps tools to ensure **efficient, scalable, and reliable deployment** to Kubernetes clusters.
