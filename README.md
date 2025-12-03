@@ -36,6 +36,8 @@ Code commits → Jenkins CI → Docker image pushed → Argo CD detects changes 
 - Reliable, faster releases with version-controlled deployments.
 - Strong demonstration of **modern DevOps practices and GitOps workflow**.
 
+<img width="1902" height="657" alt="jenkins_pipeline" src="https://github.com/user-attachments/assets/9ff3bf80-e570-4179-b2c7-018bd1b208c4" />
+
 ---
 
 
